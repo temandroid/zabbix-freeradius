@@ -58,7 +58,7 @@
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -98,7 +98,7 @@
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -138,7 +138,7 @@
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -175,7 +175,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -212,7 +212,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -249,7 +249,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -286,7 +286,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -323,7 +323,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -360,7 +360,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -397,7 +397,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -437,7 +437,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -477,7 +477,7 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
@@ -517,13 +517,13 @@ FreeRADIUS-Total-Acct-Unknown-Types</description>
                         </step>
                     </preprocessing>
                     <master_item>
-                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                        <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     </master_item>
                     <request_method>POST</request_method>
                 </item>
                 <item>
                     <name>Radius auth check</name>
-                    <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                    <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 1, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     <delay>30</delay>
                     <trends>0</trends>
                     <value_type>TEXT</value_type>
@@ -554,7 +554,7 @@ FreeRADIUS-Total-Auth-Unknown-Types = 0</description>
                 </item>
                 <item>
                     <name>Radius acct check</name>
-                    <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x 127.0.0.1:18121 status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
+                    <key>system.run[&quot;echo 'Message-Authenticator = 0x00, FreeRADIUS-Statistics-Type = 2, Response-Packet-Type = Access-Accept' | radclient -x {$RADIUS_IP}:{$RADIUS_PORT} status '{$RADIUS_SECRET}'  |  grep 'FreeRADIUS-Total' &quot;]</key>
                     <delay>30</delay>
                     <trends>0</trends>
                     <value_type>TEXT</value_type>
